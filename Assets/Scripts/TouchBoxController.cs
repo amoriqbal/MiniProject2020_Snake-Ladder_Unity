@@ -15,30 +15,87 @@ public class TouchBoxController : MonoBehaviour
 
     public GameObject[] TouchableTiles=new GameObject[BoardWaypoints._NUM_BOXES];
     public GameObject TouchableTilePrefab;
-    //public Vector3 diff;
-    //public Vector3 Pos1;
+
+    bool snakeState, ladderState, createLadder,createSnake;
+    int ladderStartIndex, snakeStartIndex;
     private Vector3 offset;
     void Start()
     {
-        //TouchableTiles[0]=GameObject.Instantiate(TouchableTilePrefab);
-        //TouchableTiles[0].transform.position = Pos1;
+        snakeState = ladderState = createLadder = createSnake = false;
         offset = TouchableTilePrefab.transform.position - BoardWaypoints.Instance.waypoints[0];
         for (int i = 1; i < BoardWaypoints._NUM_BOXES; i++)
         {
             TouchableTiles[i] = GameObject.Instantiate(TouchableTilePrefab);
+            TouchableTiles[i].GetComponent<ID_number>().ID = i;
             TouchableTiles[i].transform.position = BoardWaypoints.Instance.waypoints[i] + offset;
-            /*if (i % BoardWaypoints._NUM_COLUMNS == 0)
-                TouchableTiles[i].transform.position = new Vector3(TouchableTiles[i - 1].transform.position.x, TouchableTiles[i - 1].transform.position.y + diff.y, 0f);
-            else if ((i / BoardWaypoints._NUM_COLUMNS) % 2 == 0)
-                TouchableTiles[i].transform.position = new Vector3(TouchableTiles[i - 1].transform.position.x + diff.x, TouchableTiles[i - 1].transform.position.y, 0f);
-            else
-                TouchableTiles[i].transform.position = new Vector3(TouchableTiles[i - 1].transform.position.x - diff.x, TouchableTiles[i - 1].transform.position.y, 0f);
-            */
-
         }
     }
 
+    void Update()
+    {
+        Vector3 mousepos;
+        RaycastHit2D[] hit=new RaycastHit2D[10];
+        Ray2D ray;
+        ContactFilter2D cf=new ContactFilter2D();
+        if(Input.GetMouseButtonDown(0))
+        {
+            mousepos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            ray = new Ray2D(mousepos, Vector2.zero);
+            Physics2D.Raycast(ray.origin,ray.direction,cf,hit,100.0f);
+            if(hit[0])
+            {
+                GetBox(hit[0].collider.gameObject.GetComponent<ID_number>().ID);
+                //Debug.Log(hit[0].collider.gameObject.name + hit[0].collider.gameObject.GetComponent<ID_number>().ID+" has been hit");
+            }
+        }
+    }
 
+    void GetBox(int index)
+    {
+        
+        Debug.Log("Caught box " + index);
+        if (createLadder)
+        {
+            if (ladderState)
+            {
+                BoardWaypoints.Instance.ladders[(index<ladderStartIndex?index:ladderStartIndex)] = (index<ladderStartIndex?ladderStartIndex:index);
+                ladderState = false;
+            }
+            else
+            {
+                ladderStartIndex = index;
+                ladderState = true;
+            }
+        }
+        if (createSnake)
+        {
+            if (snakeState)
+            {
+                BoardWaypoints.Instance.snakes[(index > snakeStartIndex ? index : snakeStartIndex)] = (index > snakeStartIndex ? snakeStartIndex : index);
+                snakeState = false;
+            }
+            else
+            {
+                snakeStartIndex = index;
+                snakeState = true;
+            }
+        }
+    }
+
+    void SetCreateLadder(bool val)
+    {
+        createLadder = val;
+        ladderState = false;
+        if (val)
+            SetCreateSnake(false);
+    }
+    void SetCreateSnake(bool val)
+    {
+        createSnake = val;
+        snakeState = false;
+        if (val)
+            SetCreateLadder(false);
+    }
     private void Awake()
     {
         _instance = this;

@@ -45,8 +45,12 @@ public class BoardWaypoints : MonoBehaviour
                 waypoints[i] = new Vector3(waypoints[i - 1].x + diff.x, waypoints[i - 1].y, 0f);
             else
                 waypoints[i] = new Vector3(waypoints[i - 1].x - diff.x, waypoints[i - 1].y, 0f);
+        }
 
-
+        for(int i=0;i<_NUM_BOXES;i++)
+        {
+            snakes[i] = -1;
+            ladders[i] = -1;
         }
     }
 
