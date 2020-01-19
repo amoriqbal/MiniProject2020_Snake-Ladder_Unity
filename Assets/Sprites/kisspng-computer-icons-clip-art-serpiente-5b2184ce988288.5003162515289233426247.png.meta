@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 5c6ce01c81075c342b3601d323381f92
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_0
+  - first:
+      213: 21300002
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_1
+  - first:
+      213: 21300004
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_2
+  - first:
+      213: 21300006
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_3
+  - first:
+      213: 21300008
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_4
+  - first:
+      213: 21300010
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_5
+  - first:
+      213: 21300012
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_6
+  - first:
+      213: 21300014
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_7
+  - first:
+      213: 21300016
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_8
+  - first:
+      213: 21300018
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_9
+  - first:
+      213: 21300020
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_10
+  - first:
+      213: 21300022
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_11
+  - first:
+      213: 21300024
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_12
+  - first:
+      213: 21300026
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_13
+  - first:
+      213: 21300028
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_14
+  - first:
+      213: 21300030
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_15
+  - first:
+      213: 21300032
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_16
+  - first:
+      213: 21300034
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_17
+  - first:
+      213: 21300036
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_18
+  - first:
+      213: 21300038
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_19
+  - first:
+      213: 21300040
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_20
+  - first:
+      213: 21300042
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_21
+  - first:
+      213: 21300044
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_22
+  - first:
+      213: 21300046
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_23
+  - first:
+      213: 21300048
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_24
+  - first:
+      213: 21300050
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_25
+  - first:
+      213: 21300052
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_26
+  - first:
+      213: 21300054
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_27
+  - first:
+      213: 21300056
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_28
+  - first:
+      213: 21300058
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_29
+  - first:
+      213: 21300060
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_30
+  - first:
+      213: 21300062
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_31
+  - first:
+      213: 21300064
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_32
+  - first:
+      213: 21300066
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_33
+  - first:
+      213: 21300068
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_34
+  - first:
+      213: 21300070
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_35
+  - first:
+      213: 21300072
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_36
+  - first:
+      213: 21300074
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_37
+  - first:
+      213: 21300076
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_38
+  - first:
+      213: 21300078
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_39
+  - first:
+      213: 21300080
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_40
+  - first:
+      213: 21300082
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_41
+  - first:
+      213: 21300084
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_42
+  - first:
+      213: 21300086
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_43
+  - first:
+      213: 21300088
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_44
+  - first:
+      213: 21300090
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_45
+  - first:
+      213: 21300092
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_46
+  - first:
+      213: 21300094
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_47
+  - first:
+      213: 21300096
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_48
+  - first:
+      213: 21300098
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_49
+  - first:
+      213: 21300100
+    second: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_50
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 343
+        width: 166
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81b69f398d61cc4c937a966d8b5e05c
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_1
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 238
+        width: 118
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a83ebda0a21a04e9a0f938aebbc69b
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 335
+        width: 134
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893488021a56c214d9eb00dd2ea8b14d
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_3
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 345
+        width: 168
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71fb9120bbf8544ba267d75d4d00a47
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 269
+        width: 64
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6dd768b0d8449a47bcf4a7356e9e873
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 190
+        width: 63
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 1, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f79525446a3e0649b310b9f8a06392f
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-computer-icons-clip-art-serpiente-5b2184ce988288.5003162515289233426247_6
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 92
+        width: 109
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede54a483d0147d47a10bbb356dae6ac
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 4cb5e72de90696e46ba2a01d781a2ad9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

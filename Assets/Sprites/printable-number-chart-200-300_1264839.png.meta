@@ -1,0 +1,3825 @@
+fileFormatVersion: 2
+guid: e4ef79d56f814dd4bb63a245c73a0520
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: printable-number-chart-200-300_1264839_0
+  - first:
+      213: 21300002
+    second: printable-number-chart-200-300_1264839_1
+  - first:
+      213: 21300004
+    second: printable-number-chart-200-300_1264839_2
+  - first:
+      213: 21300006
+    second: printable-number-chart-200-300_1264839_3
+  - first:
+      213: 21300008
+    second: printable-number-chart-200-300_1264839_4
+  - first:
+      213: 21300010
+    second: printable-number-chart-200-300_1264839_5
+  - first:
+      213: 21300012
+    second: printable-number-chart-200-300_1264839_6
+  - first:
+      213: 21300014
+    second: printable-number-chart-200-300_1264839_7
+  - first:
+      213: 21300016
+    second: printable-number-chart-200-300_1264839_8
+  - first:
+      213: 21300018
+    second: printable-number-chart-200-300_1264839_9
+  - first:
+      213: 21300020
+    second: printable-number-chart-200-300_1264839_10
+  - first:
+      213: 21300022
+    second: printable-number-chart-200-300_1264839_11
+  - first:
+      213: 21300024
+    second: printable-number-chart-200-300_1264839_12
+  - first:
+      213: 21300026
+    second: printable-number-chart-200-300_1264839_13
+  - first:
+      213: 21300028
+    second: printable-number-chart-200-300_1264839_14
+  - first:
+      213: 21300030
+    second: printable-number-chart-200-300_1264839_15
+  - first:
+      213: 21300032
+    second: printable-number-chart-200-300_1264839_16
+  - first:
+      213: 21300034
+    second: printable-number-chart-200-300_1264839_17
+  - first:
+      213: 21300036
+    second: printable-number-chart-200-300_1264839_18
+  - first:
+      213: 21300038
+    second: printable-number-chart-200-300_1264839_19
+  - first:
+      213: 21300040
+    second: printable-number-chart-200-300_1264839_20
+  - first:
+      213: 21300042
+    second: printable-number-chart-200-300_1264839_21
+  - first:
+      213: 21300044
+    second: printable-number-chart-200-300_1264839_22
+  - first:
+      213: 21300046
+    second: printable-number-chart-200-300_1264839_23
+  - first:
+      213: 21300048
+    second: printable-number-chart-200-300_1264839_24
+  - first:
+      213: 21300050
+    second: printable-number-chart-200-300_1264839_25
+  - first:
+      213: 21300052
+    second: printable-number-chart-200-300_1264839_26
+  - first:
+      213: 21300054
+    second: printable-number-chart-200-300_1264839_27
+  - first:
+      213: 21300056
+    second: printable-number-chart-200-300_1264839_28
+  - first:
+      213: 21300058
+    second: printable-number-chart-200-300_1264839_29
+  - first:
+      213: 21300060
+    second: printable-number-chart-200-300_1264839_30
+  - first:
+      213: 21300062
+    second: printable-number-chart-200-300_1264839_31
+  - first:
+      213: 21300064
+    second: printable-number-chart-200-300_1264839_32
+  - first:
+      213: 21300066
+    second: printable-number-chart-200-300_1264839_33
+  - first:
+      213: 21300068
+    second: printable-number-chart-200-300_1264839_34
+  - first:
+      213: 21300070
+    second: printable-number-chart-200-300_1264839_35
+  - first:
+      213: 21300072
+    second: printable-number-chart-200-300_1264839_36
+  - first:
+      213: 21300074
+    second: printable-number-chart-200-300_1264839_37
+  - first:
+      213: 21300076
+    second: printable-number-chart-200-300_1264839_38
+  - first:
+      213: 21300078
+    second: printable-number-chart-200-300_1264839_39
+  - first:
+      213: 21300080
+    second: printable-number-chart-200-300_1264839_40
+  - first:
+      213: 21300082
+    second: printable-number-chart-200-300_1264839_41
+  - first:
+      213: 21300084
+    second: printable-number-chart-200-300_1264839_42
+  - first:
+      213: 21300086
+    second: printable-number-chart-200-300_1264839_43
+  - first:
+      213: 21300088
+    second: printable-number-chart-200-300_1264839_44
+  - first:
+      213: 21300090
+    second: printable-number-chart-200-300_1264839_45
+  - first:
+      213: 21300092
+    second: printable-number-chart-200-300_1264839_46
+  - first:
+      213: 21300094
+    second: printable-number-chart-200-300_1264839_47
+  - first:
+      213: 21300096
+    second: printable-number-chart-200-300_1264839_48
+  - first:
+      213: 21300098
+    second: printable-number-chart-200-300_1264839_49
+  - first:
+      213: 21300100
+    second: printable-number-chart-200-300_1264839_50
+  - first:
+      213: 21300102
+    second: printable-number-chart-200-300_1264839_51
+  - first:
+      213: 21300104
+    second: printable-number-chart-200-300_1264839_52
+  - first:
+      213: 21300106
+    second: printable-number-chart-200-300_1264839_53
+  - first:
+      213: 21300108
+    second: printable-number-chart-200-300_1264839_54
+  - first:
+      213: 21300110
+    second: printable-number-chart-200-300_1264839_55
+  - first:
+      213: 21300112
+    second: printable-number-chart-200-300_1264839_56
+  - first:
+      213: 21300114
+    second: printable-number-chart-200-300_1264839_57
+  - first:
+      213: 21300116
+    second: printable-number-chart-200-300_1264839_58
+  - first:
+      213: 21300118
+    second: printable-number-chart-200-300_1264839_59
+  - first:
+      213: 21300120
+    second: printable-number-chart-200-300_1264839_60
+  - first:
+      213: 21300122
+    second: printable-number-chart-200-300_1264839_61
+  - first:
+      213: 21300124
+    second: printable-number-chart-200-300_1264839_62
+  - first:
+      213: 21300126
+    second: printable-number-chart-200-300_1264839_63
+  - first:
+      213: 21300128
+    second: printable-number-chart-200-300_1264839_64
+  - first:
+      213: 21300130
+    second: printable-number-chart-200-300_1264839_65
+  - first:
+      213: 21300132
+    second: printable-number-chart-200-300_1264839_66
+  - first:
+      213: 21300134
+    second: printable-number-chart-200-300_1264839_67
+  - first:
+      213: 21300136
+    second: printable-number-chart-200-300_1264839_68
+  - first:
+      213: 21300138
+    second: printable-number-chart-200-300_1264839_69
+  - first:
+      213: 21300140
+    second: printable-number-chart-200-300_1264839_70
+  - first:
+      213: 21300142
+    second: printable-number-chart-200-300_1264839_71
+  - first:
+      213: 21300144
+    second: printable-number-chart-200-300_1264839_72
+  - first:
+      213: 21300146
+    second: printable-number-chart-200-300_1264839_73
+  - first:
+      213: 21300148
+    second: printable-number-chart-200-300_1264839_74
+  - first:
+      213: 21300150
+    second: printable-number-chart-200-300_1264839_75
+  - first:
+      213: 21300152
+    second: printable-number-chart-200-300_1264839_76
+  - first:
+      213: 21300154
+    second: printable-number-chart-200-300_1264839_77
+  - first:
+      213: 21300156
+    second: printable-number-chart-200-300_1264839_78
+  - first:
+      213: 21300158
+    second: printable-number-chart-200-300_1264839_79
+  - first:
+      213: 21300160
+    second: printable-number-chart-200-300_1264839_80
+  - first:
+      213: 21300162
+    second: printable-number-chart-200-300_1264839_81
+  - first:
+      213: 21300164
+    second: printable-number-chart-200-300_1264839_82
+  - first:
+      213: 21300166
+    second: printable-number-chart-200-300_1264839_83
+  - first:
+      213: 21300168
+    second: printable-number-chart-200-300_1264839_84
+  - first:
+      213: 21300170
+    second: printable-number-chart-200-300_1264839_85
+  - first:
+      213: 21300172
+    second: printable-number-chart-200-300_1264839_86
+  - first:
+      213: 21300174
+    second: printable-number-chart-200-300_1264839_87
+  - first:
+      213: 21300176
+    second: printable-number-chart-200-300_1264839_88
+  - first:
+      213: 21300178
+    second: printable-number-chart-200-300_1264839_89
+  - first:
+      213: 21300180
+    second: printable-number-chart-200-300_1264839_90
+  - first:
+      213: 21300182
+    second: printable-number-chart-200-300_1264839_91
+  - first:
+      213: 21300184
+    second: printable-number-chart-200-300_1264839_92
+  - first:
+      213: 21300186
+    second: printable-number-chart-200-300_1264839_93
+  - first:
+      213: 21300188
+    second: printable-number-chart-200-300_1264839_94
+  - first:
+      213: 21300190
+    second: printable-number-chart-200-300_1264839_95
+  - first:
+      213: 21300192
+    second: printable-number-chart-200-300_1264839_96
+  - first:
+      213: 21300194
+    second: printable-number-chart-200-300_1264839_97
+  - first:
+      213: 21300196
+    second: printable-number-chart-200-300_1264839_98
+  - first:
+      213: 21300198
+    second: printable-number-chart-200-300_1264839_99
+  - first:
+      213: 21300200
+    second: printable-number-chart-200-300_1264839_100
+  - first:
+      213: 21300202
+    second: printable-number-chart-200-300_1264839_101
+  - first:
+      213: 21300204
+    second: printable-number-chart-200-300_1264839_102
+  - first:
+      213: 21300206
+    second: printable-number-chart-200-300_1264839_103
+  - first:
+      213: 21300208
+    second: printable-number-chart-200-300_1264839_104
+  - first:
+      213: 21300210
+    second: printable-number-chart-200-300_1264839_105
+  - first:
+      213: 21300212
+    second: printable-number-chart-200-300_1264839_106
+  - first:
+      213: 21300214
+    second: printable-number-chart-200-300_1264839_107
+  - first:
+      213: 21300216
+    second: printable-number-chart-200-300_1264839_108
+  - first:
+      213: 21300218
+    second: printable-number-chart-200-300_1264839_109
+  - first:
+      213: 21300220
+    second: printable-number-chart-200-300_1264839_110
+  - first:
+      213: 21300222
+    second: printable-number-chart-200-300_1264839_111
+  - first:
+      213: 21300224
+    second: printable-number-chart-200-300_1264839_112
+  - first:
+      213: 21300226
+    second: printable-number-chart-200-300_1264839_113
+  - first:
+      213: 21300228
+    second: printable-number-chart-200-300_1264839_114
+  - first:
+      213: 21300230
+    second: printable-number-chart-200-300_1264839_115
+  - first:
+      213: 21300232
+    second: printable-number-chart-200-300_1264839_116
+  - first:
+      213: 21300234
+    second: printable-number-chart-200-300_1264839_117
+  - first:
+      213: 21300236
+    second: printable-number-chart-200-300_1264839_118
+  - first:
+      213: 21300238
+    second: printable-number-chart-200-300_1264839_119
+  - first:
+      213: 21300240
+    second: printable-number-chart-200-300_1264839_120
+  - first:
+      213: 21300242
+    second: printable-number-chart-200-300_1264839_121
+  - first:
+      213: 21300244
+    second: printable-number-chart-200-300_1264839_122
+  - first:
+      213: 21300246
+    second: printable-number-chart-200-300_1264839_123
+  - first:
+      213: 21300248
+    second: printable-number-chart-200-300_1264839_124
+  - first:
+      213: 21300250
+    second: printable-number-chart-200-300_1264839_125
+  - first:
+      213: 21300252
+    second: printable-number-chart-200-300_1264839_126
+  - first:
+      213: 21300254
+    second: printable-number-chart-200-300_1264839_127
+  - first:
+      213: 21300256
+    second: printable-number-chart-200-300_1264839_128
+  - first:
+      213: 21300258
+    second: printable-number-chart-200-300_1264839_129
+  - first:
+      213: 21300260
+    second: printable-number-chart-200-300_1264839_130
+  - first:
+      213: 21300262
+    second: printable-number-chart-200-300_1264839_131
+  - first:
+      213: 21300264
+    second: printable-number-chart-200-300_1264839_132
+  - first:
+      213: 21300266
+    second: printable-number-chart-200-300_1264839_133
+  - first:
+      213: 21300268
+    second: printable-number-chart-200-300_1264839_134
+  - first:
+      213: 21300270
+    second: printable-number-chart-200-300_1264839_135
+  - first:
+      213: 21300272
+    second: printable-number-chart-200-300_1264839_136
+  - first:
+      213: 21300274
+    second: printable-number-chart-200-300_1264839_137
+  - first:
+      213: 21300276
+    second: printable-number-chart-200-300_1264839_138
+  - first:
+      213: 21300278
+    second: printable-number-chart-200-300_1264839_139
+  - first:
+      213: 21300280
+    second: printable-number-chart-200-300_1264839_140
+  - first:
+      213: 21300282
+    second: printable-number-chart-200-300_1264839_141
+  - first:
+      213: 21300284
+    second: printable-number-chart-200-300_1264839_142
+  - first:
+      213: 21300286
+    second: printable-number-chart-200-300_1264839_143
+  - first:
+      213: 21300288
+    second: printable-number-chart-200-300_1264839_144
+  - first:
+      213: 21300290
+    second: printable-number-chart-200-300_1264839_145
+  - first:
+      213: 21300292
+    second: printable-number-chart-200-300_1264839_146
+  - first:
+      213: 21300294
+    second: printable-number-chart-200-300_1264839_147
+  - first:
+      213: 21300296
+    second: printable-number-chart-200-300_1264839_148
+  - first:
+      213: 21300298
+    second: printable-number-chart-200-300_1264839_149
+  - first:
+      213: 21300300
+    second: printable-number-chart-200-300_1264839_150
+  - first:
+      213: 21300302
+    second: printable-number-chart-200-300_1264839_151
+  - first:
+      213: 21300304
+    second: printable-number-chart-200-300_1264839_152
+  - first:
+      213: 21300306
+    second: printable-number-chart-200-300_1264839_153
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 287
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b2a85b971347a48812d61e2575186f
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 287
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3007b5a7902d349b2089e6970cc297
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 287
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6747a0be86d15469fe6df23268a8b1
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 287
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5a8eed8cfc10a46852f0f5c8a835e6
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_4
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 287
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df963672e496ad7419cd509155412c0e
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_5
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 287
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad5286a2688e204cbb46387d4e8879a
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_6
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 287
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86615fa7bebee64499599215ed6c3f19
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_7
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 287
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6e91ccccb730e49828bf9652fbb5ae
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_8
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 287
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f739b49d1faf54da2edf343a15cdbe
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_9
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 287
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ccd9de712244143b540945da0fe5a1
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_10
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 287
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97f267cfb24be24fa5530de7dd11228
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_11
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 265
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542019660eef4ae4e9f1939e955792c6
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_12
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 265
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0baaec26da1729e429faaccb15c55543
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_13
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 265
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c78da9dd16806c4ab45ca76a9fc0e50
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_14
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 265
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89eae38c78f203a49bd92ea51229d53c
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_15
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 265
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc00bc81520648544982fefb56c90b5f
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_16
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 265
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212d0253cf4b92248a7822c4fadfd2fa
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_17
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 265
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c3d59b363b5784eb6ceddda7a443d3
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_18
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 265
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c9ec6094fef0440a49030d58765fdf
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_19
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 265
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa896723d9e231f408df1211c4e8b3b3
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_20
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 265
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156fde365f62f7b4188ce66446b84da9
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_21
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 265
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197c4f1c3576a834b98dd8c415a133f7
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_22
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 243
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b8ffde0af8ec3438eb2e759a61f750
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_23
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 243
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c56a5088f16e95409c6236fce2638f4
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_24
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 243
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b218ac72043f1c949aa954da88d6d71d
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 243
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feaae73b1db2f904da7d6838017663d7
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_26
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 243
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e685a3db5c091de4abc936494c0a0dd8
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_27
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 243
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57cfb911753b8a74ba077f9f620d8c89
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_28
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 243
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6e1e2c125d8df4ea678912b23e7df5
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_29
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 243
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d33667da2285044b6d3eba12a73d76
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_30
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 243
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441cb762abefd504f9ca2ee8a0359919
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_31
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 243
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e71266e4458b64e91bae120c10f888
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_32
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 243
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899dd71e55531a448955396301863b07
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_33
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 221
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4dc57a6235da7b47b614941b67bce80
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_34
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 221
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790f26fea7070c94abfbd1024640a65a
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_35
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 221
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15988edae0e0b704f9c752d975dd8d2e
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_36
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 221
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fddc497924244347b6f583ade2580d7
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_37
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 221
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f87bd35304c55549ac4da9e0510d65c
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_38
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 221
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ecf65ba993fc047b211804f06e22d1
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_39
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 221
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb7a8f7457333944a40bf6d963e7279
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_40
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 221
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa9385a2e9b0a544b3dfaebd5029098
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_41
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 221
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20bea8529b45f44a87469fbb7fb9691
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_42
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 221
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc921945010c8244abd1863b4857fe0
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_43
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 221
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2465e62d908966345bd57c91e489f498
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_44
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 199
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8477136d63131fe4e8001c29dfb08831
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_45
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 199
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8b1c23dfd0d35489c9801340dd24e7
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_46
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 199
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811577d412ab62d45977fb88f2b496fe
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_47
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 199
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1996ba8b1f6d3b041890f6d87957d201
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_48
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 199
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3cee312ee77c645b5dfe28082ca466
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_49
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 199
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4bb13302349ca4e8b125c4252a94df
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_50
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 199
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668a5003ce52d4946bf4c7b645113fa6
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_51
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 199
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a310dcdd242f12499310bd408deb591
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_52
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 199
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f452f1ff741ed77459bba8b900a944c6
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_53
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 199
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afbb15a4ad251484590c2d43c0fedd2b
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_54
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 199
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4e7f6455f5e16438b6e8227c9ae60e
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_55
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 177
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03f890673d2cad48bc70308faf4742d
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_56
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 177
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bcd7b786f425404e981eb1bd66be9ab
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_57
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 177
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ba4d18879459344b3e938707fe67c4
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_58
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 177
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0dabe635efbfea4c820ed3731a514ca
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_59
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 177
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9c788fca3bd7042bc3742d785a6ef9
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_60
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 177
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47499b7e01f62de40aec4ecebb2c5682
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_61
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 177
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36682c03d8a088f4f8591f18f302b4ed
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_62
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 177
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b374cc4550f2c8841bccbab8364eb288
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_63
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 177
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8308a43de6a74fc4f9396eae197df93c
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_64
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 177
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f5b5d3ea722f247986a04a2af9924a
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_65
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 177
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca2001352a7e0c47ab41b458cfccefa
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_66
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 155
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b8437e04a8c0548a0ed7f65af6ef50
+      internalID: 21300132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_67
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 155
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20fb82a435454f740ac309c4dc51d8fa
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_68
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 155
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d64edfbdab3804c91e64f35f256c73
+      internalID: 21300136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_69
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 155
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d87ec137193858489eb2ed6082b2857
+      internalID: 21300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_70
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 155
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539686fcbed0edf4ba87cfce4ec484f4
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_71
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 155
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a669bf66a685cee46b222572fe88d0b0
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_72
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 155
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83552b1ea66bbbe4a84e8cf4a54dd3a3
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_73
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 155
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b1260f28f3a594bb8228a2aa404bf3
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_74
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 155
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62bd86d92831a2428fcaf3e9b10c29a
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_75
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 155
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5124732c35b128943b7c4dae345c4a6f
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_76
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 155
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44cb5bb4d6687a34292552c3574306b4
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_77
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 133
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22c0bc518401fc48b11398918a40cbb
+      internalID: 21300154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_78
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 133
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc5f6d9ce616fa4391d679e30143da4
+      internalID: 21300156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_79
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 133
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8881b51f5d2d624d8d80cdcc9e4131e
+      internalID: 21300158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_80
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 133
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00891ac52f7b79b47a3c8aeb7aa3bcd3
+      internalID: 21300160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_81
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 133
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90b0e682ddd98648a2f54c0f4a9d3cf
+      internalID: 21300162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_82
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 133
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361022b2ae81e274c81d0610b950682a
+      internalID: 21300164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_83
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 133
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8295d59ed5c2835469b3220cf7bb9d73
+      internalID: 21300166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_84
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 133
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b4c538d9953804ea4cf76a8c1644a0
+      internalID: 21300168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_85
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 133
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac160f427ec16247b5d33ed8c2f067d
+      internalID: 21300170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_86
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 133
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47fb5f9c33d4454e894331438d978a2
+      internalID: 21300172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_87
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 133
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3e746d6cfd7cd41afe172ecbe9e3b0
+      internalID: 21300174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_88
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 111
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa1d811f7567f44baf35de91be8e01b
+      internalID: 21300176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_89
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 111
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a289a4056aea24ea6408d7de2b76ed
+      internalID: 21300178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_90
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 111
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d46309f03888d459f8075f7a0e0062
+      internalID: 21300180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_91
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 111
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b8e5d4fd06fe0479aa30b33ba4c8b6
+      internalID: 21300182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_92
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 111
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0c3f462710f4340a7fec3242a38b9c
+      internalID: 21300184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_93
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 111
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8bf6645c02043142bd5c76d6e7b5e60
+      internalID: 21300186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_94
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 111
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f24a0af6d73b1c41bb8a236b38fe2d9
+      internalID: 21300188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_95
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 111
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1649dafa22ecaf648add8d98f9a6b676
+      internalID: 21300190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_96
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 111
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d0f2f28ed233349a7fe14bfa397593
+      internalID: 21300192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_97
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 111
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532d767cc72687444888e7024953e170
+      internalID: 21300194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_98
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 111
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51427cbd6adc0d4397503d0d864272d
+      internalID: 21300196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_99
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 89
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe67ae2e8b035e042b9a0117721613ec
+      internalID: 21300198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_100
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 89
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6caa7e9b5337a41b71787a7766c2ab
+      internalID: 21300200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_101
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 89
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1015e1db0e1af3a428bc18eb2ab2d13b
+      internalID: 21300202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_102
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 89
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b926fac69234bc4d9b27fc2df6cd88c
+      internalID: 21300204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_103
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 89
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba4561a29d80ad4196c0ef62b326f67
+      internalID: 21300206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_104
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 89
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3835e44536de0b4d8b89eba64b6cecd
+      internalID: 21300208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_105
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 89
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba18b5a303834204f9263bf07709afd6
+      internalID: 21300210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_106
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 89
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdcbef7f97297bc48ad8a48afd9c678e
+      internalID: 21300212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_107
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 89
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29ae260cba71ad45a44adcd7f0a171e
+      internalID: 21300214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_108
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 89
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebe439760f048344ad74a6e7694df98
+      internalID: 21300216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_109
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 89
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ddc9b545b0e3b4eab642224509644a
+      internalID: 21300218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_110
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 67
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6717173ffd3b74f4fb348be0a5a017f0
+      internalID: 21300220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_111
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 67
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce418f5a1e878f44d997af14be18d9a9
+      internalID: 21300222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_112
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 67
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3ab06c4d3f12a47a9464121fcea74b
+      internalID: 21300224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_113
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 67
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9e2ca29985ed345845b2d056f59520
+      internalID: 21300226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_114
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 67
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51110f9e43603244a66069cc06f93c5
+      internalID: 21300228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_115
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 67
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ce7329b483f124ab305410cebe237d
+      internalID: 21300230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_116
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 67
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18ba64fbf075384eb3052457c73eed7
+      internalID: 21300232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_117
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 67
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72316b07b8d571448a71eaedd110a4f
+      internalID: 21300234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_118
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 67
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b392d1065d4f8a408168a4c6cff1aeb
+      internalID: 21300236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_119
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 67
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1cfee0925a3dc4d9f1fec29157720c
+      internalID: 21300238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_120
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 67
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9653611fa3c12024ebab885ea85a3a10
+      internalID: 21300240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_121
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 45
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2efa52fd6ee2b4e89eb71893f31b18
+      internalID: 21300242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_122
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 45
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60413829b951104b90bc47f38d0ebc7
+      internalID: 21300244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_123
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 45
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07470f39d4507ba4fa11ec497059367e
+      internalID: 21300246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_124
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 45
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0bdb2b87816f848a3a987445d45c42
+      internalID: 21300248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_125
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 45
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b603a34fe7f3e264eb1b784cb8207bd7
+      internalID: 21300250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_126
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 45
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d6323152b3b3e4b81b76fa385b3280
+      internalID: 21300252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_127
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 45
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7473336e913874eade371e5497a430
+      internalID: 21300254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_128
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 45
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8956ad94e15fcd44d9c96e33c3519b7a
+      internalID: 21300256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_129
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 45
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2055d583dc3f45c49a6d819223be7abc
+      internalID: 21300258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_130
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 45
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccca11828b3a5474ea3d208f6139cf60
+      internalID: 21300260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_131
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 45
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bdca3b7a8c8dc04a92554884614b720
+      internalID: 21300262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_132
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 23
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e403b661f1aec43b56830d459cc0ed
+      internalID: 21300264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_133
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 23
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbde5b168d5fd3245906e73495a2f31e
+      internalID: 21300266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_134
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 23
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f8e019186c4f54ab031e457f24f645
+      internalID: 21300268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_135
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 23
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949f8c5e6fb9003438de9dcd913ae2e2
+      internalID: 21300270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_136
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 23
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba90d545d5b819f4c82fa7a4ed532c1e
+      internalID: 21300272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_137
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 23
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46205f9bdcf783649aaa0ecfd30968ae
+      internalID: 21300274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_138
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 23
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36715bde13eec53449805ef5b46c494b
+      internalID: 21300276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_139
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 23
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a94ad7f7daeab49ba86a72d85fe53b
+      internalID: 21300278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_140
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 23
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976a62010cc621e46b0c8eb658f1806f
+      internalID: 21300280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_141
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 23
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f307f3d935e19b43a3d0c9cb6ffceb8
+      internalID: 21300282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_142
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 23
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4d099f0fff95646b070721333a013c
+      internalID: 21300284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_143
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52fb47717bbedfd42990fcc17c679be6
+      internalID: 21300286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_144
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d86872353f116447af1d65b2491b249
+      internalID: 21300288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_145
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9651d65dfaa5c94bb3a60d933a73638
+      internalID: 21300290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_146
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb47788bbf456d5459f50f7ea14234ec
+      internalID: 21300292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_147
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26aa8120c607fb14c824660b3260a7ba
+      internalID: 21300294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_148
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f2d82e33a64d04db2820f3eb4b3d1b
+      internalID: 21300296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_149
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3edbae881efedd44b8929978e8e1733a
+      internalID: 21300298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_150
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5e84461ecc3224ca23477aae068275
+      internalID: 21300300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_151
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a61a305d04ff7749aa1866a9b231af1
+      internalID: 21300302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_152
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c4b91a510803545ad67907f9ba179c
+      internalID: 21300304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printable-number-chart-200-300_1264839_153
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95a606242d5fea4da250022cfa1cf3f
+      internalID: 21300306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7b985d6acdce2da4f9fa6cb15142b6c8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
