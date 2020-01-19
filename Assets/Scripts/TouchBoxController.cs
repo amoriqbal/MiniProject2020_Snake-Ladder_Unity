@@ -82,6 +82,15 @@ public class TouchBoxController : MonoBehaviour
         }
     }
 
+    void ToggleCreateLadder()
+    {
+        SetCreateLadder(!createLadder);
+    }
+
+    void ToggleCreateSnake()
+    {
+        SetCreateSnake(!createSnake);
+    }
     void SetCreateLadder(bool val)
     {
         createLadder = val;
@@ -89,6 +98,7 @@ public class TouchBoxController : MonoBehaviour
         if (val)
             SetCreateSnake(false);
     }
+
     void SetCreateSnake(bool val)
     {
         createSnake = val;
