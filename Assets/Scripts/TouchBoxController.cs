@@ -15,19 +15,24 @@ public class TouchBoxController : MonoBehaviour
     
     public GameObject[] TouchableTiles = new GameObject[BoardWaypoints._NUM_BOXES];
     public GameObject TouchableTilePrefab, SnakePrefab, LadderPrefab;
+    private Transform Snakes, Ladders; 
 
     public float snakeSizeRatio, ladderSizeRatio;
     bool snakeState, ladderState, createLadder, createSnake;
     int ladderStartIndex, snakeStartIndex;
     private Vector3 offset;
+
+
     void Start()
     {
+        Snakes = GameObject.FindGameObjectWithTag("SnakeHolder").transform;
+        Ladders = GameObject.FindGameObjectWithTag("LadderHolder").transform;
         snakeSizeRatio = 880f / Screen.height;
         snakeState = ladderState = createLadder = createSnake = false;
         offset = TouchableTilePrefab.transform.position - BoardWaypoints.Instance.waypoints[0];
         for (int i = 1; i < BoardWaypoints._NUM_BOXES; i++)
         {
-            TouchableTiles[i] = GameObject.Instantiate(TouchableTilePrefab);
+            TouchableTiles[i] = GameObject.Instantiate(TouchableTilePrefab,transform);
             TouchableTiles[i].GetComponent<ID_number>().ID = i;
             TouchableTiles[i].transform.position = BoardWaypoints.Instance.waypoints[i] + offset;
         }
@@ -131,19 +136,21 @@ public class TouchBoxController : MonoBehaviour
     void DrawSnake(Vector3 init,Vector3 end)
     {
         Vector3 center = (init + end) / 2;
-        GameObject snake = GameObject.Instantiate(SnakePrefab);
+        GameObject snake = GameObject.Instantiate(SnakePrefab,Snakes);
         snake.transform.position = center;
         snake.transform.localScale *= 0.11f * Vector3.Distance(init, end)/BoardWaypoints.Instance.diff.x;
         snake.transform.Rotate(0f, 0f, Vector3.Angle(Vector3.right,(end-init)));
     }
+
     void DrawLadder(Vector3 init, Vector3 end)
     {
         Vector3 center = (init + end) / 2;
-        GameObject ladder = GameObject.Instantiate(LadderPrefab);
+        GameObject ladder = GameObject.Instantiate(LadderPrefab,Ladders);
         ladder.transform.position = center;
         ladder.transform.localScale *= 0.11f * Vector3.Distance(init, end) / BoardWaypoints.Instance.diff.x;
         ladder.transform.Rotate(0f, 0f, Vector3.Angle(Vector3.right, (end - init)));
     }
+
     private void Awake()
     {
         _instance = this;
