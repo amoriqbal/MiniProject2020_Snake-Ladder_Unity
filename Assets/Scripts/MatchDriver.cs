@@ -42,8 +42,9 @@ public class MatchDriver : MonoBehaviour
     }
     public void ThrowDie()
     {
-        DieValText.text = dieVal.ToString();
         dieVal = random.Next(1, 6);
+        DieValText.text = dieVal.ToString();
+        
         //return dieVal;
     }
 

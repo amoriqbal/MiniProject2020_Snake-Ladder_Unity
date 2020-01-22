@@ -96,7 +96,7 @@ public class TouchBoxController : MonoBehaviour
             int begin, end;
             end = (index > ladderStartIndex ? index : ladderStartIndex);
             begin = (index > ladderStartIndex ? ladderStartIndex : index);
-            BoardWaypoints.Instance.ladders[end] = begin;
+            BoardWaypoints.Instance.ladders[begin] = end;
             DrawLadder(BoardWaypoints.Instance.waypoints[begin], BoardWaypoints.Instance.waypoints[end]);
             ladderState = false;
         }

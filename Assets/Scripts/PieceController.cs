@@ -18,16 +18,16 @@ public class PieceController : MonoBehaviour
         {
             pos = i;
             transform.position =offset+ BoardWaypoints.Instance.waypoints[i];
-            /*if (BoardWaypoints.Instance.snakes[pos] != -1)
+            if (BoardWaypoints.Instance.snakes[pos] != -1)
             {
                 JumpTo(BoardWaypoints.Instance.snakes[pos]);
                 return;
             }
             if (BoardWaypoints.Instance.ladders[pos] != -1)
             {
-                JumpTo(BoardWaypoints.Instance.snakes[pos]);
+                JumpTo(BoardWaypoints.Instance.ladders[pos]);
                 return;
-            }*/
+            }
             return;
         }
         if(i==99)
