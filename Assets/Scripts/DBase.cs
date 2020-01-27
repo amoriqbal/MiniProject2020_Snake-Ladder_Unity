@@ -1,10 +1,12 @@
 ﻿using UnityEngine;
 using Mono.Data.Sqlite;
 using System;
+using UnityEngine.UI;
 
 public class DBase : MonoBehaviour
 {
     SqliteConnection sqlite_conn;
+    public Text dbname;
     string table;
     void Start()
     {
@@ -67,4 +69,28 @@ public class DBase : MonoBehaviour
         return false;
     }
     
+    public void LoadDB()
+    {
+        if(dbname.text=="")
+        {
+            Debug.Log("empty dbname");
+            return;
+        }
+
+        OpenDB();
+        try
+        {
+            //check if db is available
+        }
+    }
+
+    public void SaveDB()
+    {
+        if (dbname.text == "")
+        {
+            Debug.Log("empty dbname");
+            return;
+        }
+
+    }
 }

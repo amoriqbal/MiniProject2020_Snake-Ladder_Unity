@@ -35,7 +35,37 @@ public class PieceController : MonoBehaviour
 
         //show message that the players turn has gone to waste
     }
+    IEnumerator TransitTo(int i)
+    {
+        while (i < 99)
+        {
 
+            while (pos != i)
+            {
+                pos += (pos > i ? -1 : 1);
+                transform.Translate(offset + BoardWaypoints.Instance.waypoints[pos]);
+                yield return new WaitForSeconds(0.1f);
+            }
+            if (BoardWaypoints.Instance.snl[pos] != -1 && BoardWaypoints.Instance.snl[pos] != pos)
+            {
+                i = BoardWaypoints.Instance.snl[pos];
+            }
+            else
+            {
+                break;
+            }
+            yield return new WaitForSeconds(0.5f);
+        }
+        if (i == 99)
+        {
+            while (pos != i)
+            {
+                pos += (pos > i ? -1 : 1);
+                transform.Translate(offset + BoardWaypoints.Instance.waypoints[pos]);
+                yield return new WaitForSeconds(0.1f);
+            }
+        }
+    }
     public void Jump(int i)
     {
         JumpTo(pos + i);
