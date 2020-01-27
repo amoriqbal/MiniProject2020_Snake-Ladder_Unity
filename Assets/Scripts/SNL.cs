@@ -4,16 +4,17 @@ using UnityEngine;
 
 public class SNL : MonoBehaviour
 {
+    public TouchBoxController tbc;
     public void SetDelete()
     {
-        TouchBoxController.Instance.SetState(TouchBoxController.State.DELETE);
+        tbc.SetState(TouchBoxController.State.DELETE);
     }
     public void SetLadder()
     {
-        TouchBoxController.Instance.SetState(TouchBoxController.State.LADDER);
+        tbc.SetState(TouchBoxController.State.LADDER);
     }
     public void SetSnake()
     {
-        TouchBoxController.Instance.SetState(TouchBoxController.State.SNAKE);
+        tbc.SetState(TouchBoxController.State.SNAKE);
     }
 }
