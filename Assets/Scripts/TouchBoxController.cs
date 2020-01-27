@@ -6,33 +6,52 @@ using UnityEngine.UI;
 
 public class TouchBoxController : MonoBehaviour
 {
+    public enum State
+    {
+        SNAKE=0,
+        LADDER=1,
+        DELETE=2,
+        NONE=3
+    };
+    public State state;
     private static TouchBoxController _instance;
     public static TouchBoxController Instance
     {
         get;
         private set;
     }
-    
+    Color selectTint = new Color(1, 0.39f, 0.39f, 0.58f);
+    public Transform SnakeHolder, LadderHolder;
     public GameObject[] TouchableTiles = new GameObject[BoardWaypoints._NUM_BOXES];
     public GameObject TouchableTilePrefab, SnakePrefab, LadderPrefab;
-    private Transform Snakes, Ladders; 
-
-    public float snakeSizeRatio, ladderSizeRatio;
-    bool snakeState, ladderState, createLadder, createSnake;
-    int ladderStartIndex, snakeStartIndex;
     private Vector3 offset;
-
+    public int[] catchClick = new int[2];
+    private int _clickNo;
+    public int clickNo
+    {
+        get
+        {
+            return _clickNo;
+        }
+        set
+        {
+            if (value % 2 == 0 && _clickNo == 1)
+                ClearTileTint(catchClick[0]);
+            if (value % 2 == 1 && _clickNo == 1)
+                SetTileTint(catchClick[0]);
+            _clickNo = value % 2;
+        }
+    }
 
     void Start()
     {
-        Snakes = GameObject.FindGameObjectWithTag("SnakeHolder").transform;
-        Ladders = GameObject.FindGameObjectWithTag("LadderHolder").transform;
-        snakeSizeRatio = 880f / Screen.height;
-        snakeState = ladderState = createLadder = createSnake = false;
+        state = State.NONE;
+        clickNo = 0;
+        TouchableTiles[0] = TouchableTilePrefab;
         offset = TouchableTilePrefab.transform.position - BoardWaypoints.Instance.waypoints[0];
         for (int i = 1; i < BoardWaypoints._NUM_BOXES; i++)
         {
-            TouchableTiles[i] = GameObject.Instantiate(TouchableTilePrefab,transform);
+            TouchableTiles[i] =Instantiate(TouchableTilePrefab,transform);
             TouchableTiles[i].GetComponent<ID_number>().ID = i;
             TouchableTiles[i].transform.position = BoardWaypoints.Instance.waypoints[i] + offset;
         }
@@ -59,96 +78,121 @@ public class TouchBoxController : MonoBehaviour
 
     void GetBox(int index)
     {
-        
-        Debug.Log("Caught box " + index);
-        if (createLadder)
+        if (state == State.LADDER && index == 0) return;//no ladder from the starting point
+        if (state == State.SNAKE && index == BoardWaypoints._NUM_BOXES - 1) return;//no snake to the winning position
+        if(state==State.DELETE)
         {
-            CreateLadder(index);
+            DelLink(index);
+            return;
         }
-        if (createSnake)
+        clickNo++;
+        catchClick[clickNo] = index;
+        if (clickNo == 0)
+            Create_snl();
+    }
+
+    void Create_snl()
+    {
+        if (catchClick[0] == catchClick[1]) return;
+        int consecutive = 0;
+        int up, low;
+        up = (catchClick[0] > catchClick[1] ? catchClick[0] : catchClick[1]);
+        low = (catchClick[0] > catchClick[1] ? catchClick[1] : catchClick[0]);
+
+        if(state==State.LADDER)
         {
-            CreateSnake(index);
-        }
-    }
+            if (low == 0) return;
+            consecutive = 0;
+            for(int i=(low-5<0?0:low-5);i<(low+5>BoardWaypoints._NUM_BOXES-1?BoardWaypoints._NUM_BOXES-1:low+5);i++)
+            {
+                if (BoardWaypoints.Instance.snl[i] != -1||i==low)
+                    consecutive++;
+                else
+                    consecutive = 0;
+            }
+            if (consecutive >= 5) return;
 
-    void CreateSnake(int index)
-    {
-        if (snakeState)
+            if(BoardWaypoints.Instance.snl[low]!=-1)
+            {
+                DelLink(low);
+            }
+
+            BoardWaypoints.Instance.snl[low] = up;
+
+            BoardWaypoints.Instance.sprites[low] = 
+                DrawLadder(BoardWaypoints.Instance.waypoints[low], BoardWaypoints.Instance.waypoints[up]);
+        }
+
+        if (state == State.SNAKE)
         {
-            int begin, end;
-            end = (index > snakeStartIndex ? index : snakeStartIndex);
-            begin = (index > snakeStartIndex ? snakeStartIndex : index);
-            BoardWaypoints.Instance.snakes[end] = begin;
-            DrawSnake(BoardWaypoints.Instance.waypoints[begin], BoardWaypoints.Instance.waypoints[end]);
-            snakeState = false;
+            if (up == BoardWaypoints._NUM_BOXES-1) return;
+            consecutive = 0;
+            for (int i = (up - 5 < 0 ? 0 : up - 5); i < (up + 5 > BoardWaypoints._NUM_BOXES - 1 ? BoardWaypoints._NUM_BOXES - 1 : low + 5); i++)
+            {
+                if (BoardWaypoints.Instance.snl[i] != -1||i==up)
+                    consecutive++;
+                else
+                    consecutive = 0;
+            }
+            if (consecutive >= 6) return;
+
+            if (BoardWaypoints.Instance.snl[up] != -1)
+            {
+                DelLink(up);
+            }
+
+            BoardWaypoints.Instance.snl[up] = low;
+
+            BoardWaypoints.Instance.sprites[up] =
+                DrawSnake(BoardWaypoints.Instance.waypoints[up], BoardWaypoints.Instance.waypoints[low]);
         }
-        else
+    }
+
+    void DelLink(int index)
+    {
+        if(BoardWaypoints.Instance.snl[index]!=-1)
         {
-            snakeStartIndex = index;
-            snakeState = true;
+            BoardWaypoints.Instance.snl[index] = -1;
+            Destroy(BoardWaypoints.Instance.sprites[index]);
+            BoardWaypoints.Instance.sprites[index] = null;
         }
+        clickNo = 0;
+    }
+    
+    public void SetState(State s)
+    { 
+        clickNo = 0;
+        state = s;
     }
 
-    void CreateLadder(int index)
-    {
-        if (ladderState)
-        {
-            int begin, end;
-            end = (index > ladderStartIndex ? index : ladderStartIndex);
-            begin = (index > ladderStartIndex ? ladderStartIndex : index);
-            BoardWaypoints.Instance.ladders[begin] = end;
-            DrawLadder(BoardWaypoints.Instance.waypoints[begin], BoardWaypoints.Instance.waypoints[end]);
-            ladderState = false;
-        }
-        else
-        {
-            ladderStartIndex = index;
-            ladderState = true;
-        }
-    }
-
-    void ToggleCreateLadder()
-    {
-        SetCreateLadder(!createLadder);
-    }
-
-    void ToggleCreateSnake()
-    {
-        SetCreateSnake(!createSnake);
-    }
-
-    void SetCreateLadder(bool val)
-    {
-        createLadder = val;
-        ladderState = false;
-        if (val)
-            SetCreateSnake(false);
-    }
-
-    void SetCreateSnake(bool val)
-    {
-        createSnake = val;
-        snakeState = false;
-        if (val)
-            SetCreateLadder(false);
-    }
-
-    void DrawSnake(Vector3 init,Vector3 end)
+    GameObject DrawSnake(Vector3 init,Vector3 end)
     {
         Vector3 center = (init + end) / 2;
-        GameObject snake = GameObject.Instantiate(SnakePrefab,Snakes);
+        GameObject snake = GameObject.Instantiate(SnakePrefab,SnakeHolder);
         snake.transform.position = center;
         snake.transform.localScale *= 0.11f * Vector3.Distance(init, end)/BoardWaypoints.Instance.diff.x;
         snake.transform.Rotate(0f, 0f, Vector3.Angle(Vector3.right,(end-init)));
+        return snake;
     }
 
-    void DrawLadder(Vector3 init, Vector3 end)
+    GameObject DrawLadder(Vector3 init, Vector3 end)
     {
         Vector3 center = (init + end) / 2;
-        GameObject ladder = GameObject.Instantiate(LadderPrefab,Ladders);
+        GameObject ladder = GameObject.Instantiate(LadderPrefab,LadderHolder);
         ladder.transform.position = center;
         ladder.transform.localScale *= 0.11f * Vector3.Distance(init, end) / BoardWaypoints.Instance.diff.x;
         ladder.transform.Rotate(0f, 0f, Vector3.Angle(Vector3.right, (end - init)));
+        return ladder;   
+    }    
+
+    void SetTileTint(int index)
+    {
+        TouchableTiles[index].GetComponent<SpriteRenderer>().color = selectTint;
+    }
+
+    void ClearTileTint(int index)
+    {
+        TouchableTiles[index].GetComponent<SpriteRenderer>().color = Color.clear;
     }
 
     private void Awake()
