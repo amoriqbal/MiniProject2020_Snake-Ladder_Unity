@@ -36,9 +36,15 @@ public class TouchBoxController : MonoBehaviour
         set
         {
             if (value % 2 == 0 && _clickNo == 1)
+            {
                 ClearTileTint(catchClick[0]);
-            if (value % 2 == 1 && _clickNo == 1)
+                Debug.Log("clearing tile");
+            }
+            if (value % 2 == 1 && _clickNo == 0)
+            {
                 SetTileTint(catchClick[0]);
+                Debug.Log("tinting tile");
+            }
             _clickNo = value % 2;
         }
     }
@@ -85,8 +91,8 @@ public class TouchBoxController : MonoBehaviour
             DelLink(index);
             return;
         }
-        clickNo++;
         catchClick[clickNo] = index;
+        clickNo++;
         if (clickNo == 0)
             Create_snl();
     }
