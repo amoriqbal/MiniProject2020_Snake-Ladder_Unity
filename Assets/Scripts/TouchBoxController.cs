@@ -17,8 +17,14 @@ public class TouchBoxController : MonoBehaviour
     private static TouchBoxController _instance;
     public static TouchBoxController Instance
     {
-        get;
-        private set;
+        get
+        {
+            return _instance;
+        }
+        private set
+        {
+            _instance = value;
+        }
     }
     Color selectTint = new Color(1, 0.39f, 0.39f, 0.58f);
     public Transform SnakeHolder, LadderHolder;
@@ -171,7 +177,7 @@ public class TouchBoxController : MonoBehaviour
         state = s;
     }
 
-    GameObject DrawSnake(Vector3 init,Vector3 end)
+    public GameObject DrawSnake(Vector3 init,Vector3 end)
     {
         Vector3 center = (init + end) / 2;
         GameObject snake = GameObject.Instantiate(SnakePrefab,SnakeHolder);
@@ -181,7 +187,7 @@ public class TouchBoxController : MonoBehaviour
         return snake;
     }
 
-    GameObject DrawLadder(Vector3 init, Vector3 end)
+    public GameObject DrawLadder(Vector3 init, Vector3 end)
     {
         Vector3 center = (init + end) / 2;
         GameObject ladder = GameObject.Instantiate(LadderPrefab,LadderHolder);
