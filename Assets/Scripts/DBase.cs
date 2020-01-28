@@ -48,6 +48,7 @@ public class DBase : MonoBehaviour
 
         return false;
     }
+
     void WriteDB(string table,int i, int snl )
     {
         int s;
@@ -153,6 +154,11 @@ public class DBase : MonoBehaviour
                         BoardWaypoints.Instance.waypoints[snl_data]);
                 }
             }
+            else if(BoardWaypoints.Instance.sprites[index]!=null)
+            {
+                Destroy(BoardWaypoints.Instance.sprites[index]);
+                BoardWaypoints.Instance.sprites[index] = null;
+            }
         }
     }
 
@@ -196,8 +202,10 @@ public class DBase : MonoBehaviour
         SqliteCommand cmd = sqlite_conn.CreateCommand();
         if(isTablePresent(name))
         {
-            cmd.CommandText = "drop table " + name +";";
+            cmd.CommandText = "delete from " + name +";";
             cmd.ExecuteNonQuery();
+            /*cmd.CommandText = "vacuum;";
+            cmd.ExecuteNonQuery();*/
         }
         
         
