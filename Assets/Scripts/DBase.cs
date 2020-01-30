@@ -5,29 +5,20 @@ using UnityEngine.UI;
 
 public class DBase : MonoBehaviour
 {
-    SqliteConnection sqlite_conn;
+    //SqliteConnection sqlite_conn;
     public Text dbname;
-    void Start()
-    {
-        try
-        {
-            OpenDB();
-        }
-        catch(Exception e)
-        {
-            Debug.Log("open err!! " + e.Message);
-        }
-    }
-    
-   
+        
+    /*
     void OpenDB()
     {
         sqlite_conn = new SqliteConnection("Data Source=" + Application.dataPath + "/test.s3db.db;");
         sqlite_conn.Open();
     }
-
+    */
     bool isTablePresent(string table)
     {
+        SqliteConnection sqlite_conn = new SqliteConnection("Data Source=" + Application.dataPath + "/test.s3db.db;");
+        sqlite_conn.Open();
         SqliteCommand sqlite_cmd = sqlite_conn.CreateCommand();
         SqliteDataReader sdr;
         sqlite_cmd.CommandText = "select name from sqlite_master where type='table' and name='" + table + "';";
@@ -43,15 +34,18 @@ public class DBase : MonoBehaviour
         }
         if (sdr.HasRows)
         {
+            sqlite_conn.Close();
             return true;
         }
-
+        sqlite_conn.Close();
         return false;
     }
 
     void WriteDB(string table,int i, int snl )
     {
         int s;
+        SqliteConnection sqlite_conn = new SqliteConnection("Data Source=" + Application.dataPath + "/test.s3db.db;");
+        sqlite_conn.Open();
         SqliteCommand sqlite_cmd = sqlite_conn.CreateCommand();
         //SqliteDataReader sdr;
         if(!isTablePresent(table))
@@ -76,16 +70,20 @@ public class DBase : MonoBehaviour
         sqlite_cmd.CommandText = "INSERT INTO " + table + " (id, snl) " +
             "VALUES (" + i.ToString() + "," + snl.ToString() + ");";
         sqlite_cmd.ExecuteNonQuery();
+        sqlite_conn.Close();
+
     }
 
     bool ReadDB(string table, int i,out int snl )
     {
-        
+        SqliteConnection sqlite_conn = new SqliteConnection("Data Source=" + Application.dataPath + "/test.s3db.db;");
+        sqlite_conn.Open();
         SqliteCommand sqlite_cmd=sqlite_conn.CreateCommand();             
         SqliteDataReader sqlite_datareader;
         if (!isTablePresent(table))
         {
             snl = BoardWaypoints._NUM_BOXES + 1;
+            sqlite_conn.Close();
             return false;
         }
         sqlite_cmd = sqlite_conn.CreateCommand();
@@ -97,11 +95,13 @@ public class DBase : MonoBehaviour
             //int ladderReader = sqlite_datareader.GetInt32(2);            
             snl = snlReader;
             //ladder = ladderReader;
+            sqlite_conn.Close();
             return true;
         }
         
         snl = BoardWaypoints._NUM_BOXES+1;
         //ladder = BoardWaypoints._NUM_BOXES+1;
+        sqlite_conn.Close();
         return false;
     }
     
@@ -118,7 +118,8 @@ public class DBase : MonoBehaviour
             Debug.Log("table not found");
             return;
         }
-
+        SqliteConnection sqlite_conn = new SqliteConnection("Data Source=" + Application.dataPath + "/test.s3db.db;");
+        sqlite_conn.Open();
         SqliteCommand cmd = sqlite_conn.CreateCommand();
         SqliteDataReader sdr;
 
@@ -160,6 +161,7 @@ public class DBase : MonoBehaviour
                 BoardWaypoints.Instance.sprites[index] = null;
             }
         }
+        sqlite_conn.Close();
     }
 
     public void LoadDB(Text table)
@@ -174,6 +176,8 @@ public class DBase : MonoBehaviour
             Debug.Log("empty dbname");
             return;
         }
+        SqliteConnection sqlite_conn = new SqliteConnection("Data Source=" + Application.dataPath + "/test.s3db.db;");
+        sqlite_conn.Open();
         SqliteCommand cmd = sqlite_conn.CreateCommand();
         CreateEmptyTable(table);
         cmd.CommandText = "insert into " + table + "(id,snl) values ";
@@ -184,6 +188,7 @@ public class DBase : MonoBehaviour
                 + (i == BoardWaypoints._NUM_BOXES - 1 ? ";" : ",");
         }
         cmd.ExecuteNonQuery();
+        sqlite_conn.Close();
     }
 
     public void SaveDB(Text table)
@@ -198,16 +203,17 @@ public class DBase : MonoBehaviour
             Debug.Log("name of table is empty");
             return;
         }
-
+        SqliteConnection sqlite_conn = new SqliteConnection("Data Source=" + Application.dataPath + "/test.s3db.db;");
+        sqlite_conn.Open();
         SqliteCommand cmd = sqlite_conn.CreateCommand();
         if(isTablePresent(name))
         {
-            cmd.CommandText = "delete from " + name +";";
+            cmd.CommandText = "drop table " + name +";";
             cmd.ExecuteNonQuery();
-            /*cmd.CommandText = "vacuum;";
+            /*
+            cmd.CommandText = "vacuum;";
             cmd.ExecuteNonQuery();*/
-        }
-        
+        }        
         
         cmd.CommandText = "create table " + name + " (id int primary key,snl int)";
         
@@ -219,10 +225,8 @@ public class DBase : MonoBehaviour
         {
             Debug.Log("trunc/create prob!!!" + e.Message);
         }
-    }
-
-    ~DBase()
-    {
         sqlite_conn.Close();
     }
+
+
 }
