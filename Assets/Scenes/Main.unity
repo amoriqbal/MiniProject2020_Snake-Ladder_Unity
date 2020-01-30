@@ -509,6 +509,7 @@ GameObject:
   - component: {fileID: 475562438}
   - component: {fileID: 475562440}
   - component: {fileID: 475562439}
+  - component: {fileID: 475562441}
   m_Layer: 5
   m_Name: Black bg
   m_TagString: Untagged
@@ -572,6 +573,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 475562437}
   m_CullTransparentMesh: 0
+--- !u!95 &475562441
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475562437}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1020,13 +1040,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 812139639}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.1513278, y: -1.3281654, z: -1.0318451}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1567670555}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 918676629}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &824352980
 GameObject:
@@ -1172,6 +1192,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 874506535}
   m_CullTransparentMesh: 0
+--- !u!1 &918676628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 918676629}
+  m_Layer: 0
+  m_Name: CutScenes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &918676629
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918676628}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 812139640}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1024097079
 GameObject:
   m_ObjectHideFlags: 0
@@ -1464,7 +1515,7 @@ Transform:
   m_Children:
   - {fileID: 2128799201}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1292410276
 GameObject:
@@ -1534,6 +1585,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d0bd08ef35643f46b9be82fb42a4dac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dbname: {fileID: 0}
 --- !u!114 &1329009638 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114986898763375524, guid: 8fd415a61f7b18743a59ecac20b6f56a,
@@ -1558,6 +1610,7 @@ GameObject:
   - component: {fileID: 1567670558}
   - component: {fileID: 1567670557}
   - component: {fileID: 1567670556}
+  - component: {fileID: 1567670559}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1649,6 +1702,27 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!320 &1567670559
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567670554}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 9c263282487e1e54d93db16574ac0b34, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -391512999504235237, guid: 9c263282487e1e54d93db16574ac0b34, type: 2}
+    value: {fileID: 1118759357}
+  - key: {fileID: -6152154726448267593, guid: 9c263282487e1e54d93db16574ac0b34, type: 2}
+    value: {fileID: 475562441}
+  m_ExposedReferences:
+    m_References: []
 --- !u!114 &1590839067 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114986898763375524, guid: 8fd415a61f7b18743a59ecac20b6f56a,
