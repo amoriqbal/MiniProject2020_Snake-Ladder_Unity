@@ -29,13 +29,17 @@ public class BoardWaypoints : MonoBehaviour
             return _waypoints;
         }
     }*/
-    public Vector3[] waypoints=new Vector3[_NUM_BOXES];
-    public int[] snakes = new int[_NUM_BOXES];
-    public int[] ladders = new int[_NUM_BOXES];
+    public Vector3[] waypoints;
+    public int[] snl;
+    public GameObject[] sprites;
+    //public int[] ladders = new int[_NUM_BOXES];
     public Vector3 point1;//location of point 1 on the board
     public Vector3 diff; //space difference bw two consecutive blocks
     void Start()
     {
+        waypoints = new Vector3[_NUM_BOXES];
+        snl = new int[_NUM_BOXES];
+        sprites = new GameObject[_NUM_BOXES];
         waypoints[0] = point1;
         for(int i=1;i<_NUM_BOXES;i++)
         {
@@ -49,8 +53,8 @@ public class BoardWaypoints : MonoBehaviour
 
         for(int i=0;i<_NUM_BOXES;i++)
         {
-            snakes[i] = -1;
-            ladders[i] = -1;
+            snl[i] = -1;
+            //ladders[i] = -1;
         }
     }
 

@@ -31,7 +31,7 @@ public class MatchDriver : MonoBehaviour
     public void TakeTurn()
     {
         ThrowDie();
-        players[turn].Jump(dieVal);
+        players[turn].Transit(dieVal);
         if (players[turn].pos == 99)
             WinGame();
         else
@@ -40,10 +40,12 @@ public class MatchDriver : MonoBehaviour
             DieThrowTurn.text = "THROW DIE PLAYER " + pnames[turn];
         }
     }
+    
     public void ThrowDie()
     {
-        DieValText.text = dieVal.ToString();
         dieVal = random.Next(1, 6);
+        DieValText.text = dieVal.ToString();
+        
         //return dieVal;
     }
 
