@@ -58,7 +58,7 @@ public class MatchDriver : MonoBehaviour
 
     public void PlayAgain()
     {
-        SceneManager.LoadScene("Main");
+        SceneManager.LoadScene("LoadSetBoard");
     }
 
     public void Quit()
