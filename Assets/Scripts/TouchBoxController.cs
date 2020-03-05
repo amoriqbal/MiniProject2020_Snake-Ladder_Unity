@@ -183,7 +183,7 @@ public class TouchBoxController : MonoBehaviour
         GameObject snake = GameObject.Instantiate(SnakePrefab,SnakeHolder);
         snake.transform.position = center;
         snake.transform.localScale *= 0.11f * Vector3.Distance(init, end)/BoardWaypoints.Instance.diff.x;
-        snake.transform.Rotate(0f, 0f, Vector3.Angle(Vector3.right,(end-init)));
+        snake.transform.Rotate(0f, 0f, Vector3.Angle(Vector3.left,(end-init)));
         return snake;
     }
 
